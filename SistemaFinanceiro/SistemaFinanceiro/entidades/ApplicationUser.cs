@@ -11,6 +11,6 @@ namespace Entidades.entidades
     public class ApplicationUser : IdentityUser
     {
         [Column("USR_CPF")]
-        public string Cpf { get; set; }
+        public string CPF { get; set; }
     }
 }
